@@ -26,6 +26,11 @@ body {
   border-radius: 20px;
   box-shadow: 30px 35px 2px 5px #52206b;
 }
+@media (max-width: 500px) {
+  .container .form_area {
+    width: 95%;
+  }
+}
 .container .form_area .title {
   color: #7b4397;
   font-weight: 900;
